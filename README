@@ -1,6 +1,12 @@
-mgwt
+mgwt with ios7hotfixes
 ============
 
 mgwt is an open source mobile widget frame work for GWT, see http://www.m-gwt.com
 
-This is the showcase application of mgwt, see: http://mobilegwt.appspot.com/showcase/
+This is the m-gwt showcase app that is patched with https://github.com/mstahv/ios7hotfixes to make it work properly on iOS7 home screen web apps.
+
+Fixed online version at:
+http://v3.tahvonen.fi/mgwtfixed/
+
+There e.g. opening keyboard don't hide inputs (and prevent typing)
+
