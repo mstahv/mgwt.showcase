@@ -26,6 +26,10 @@
 	      <id>sonatype snapshots</id>
 	      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 	   </repository>
+	   <repository>
+        <id>vaadin-addons</id>
+        <url>http://maven.vaadin.com/vaadin-addons</url>
+     </repository>
 	</repositories>
 
 	<build>
@@ -140,8 +144,13 @@
 			<groupId>com.googlecode.mgwt</groupId>
 			<artifactId>mgwt</artifactId>
 			<version>1.2.0-SNAPSHOT</version>
-
 		</dependency>
+		
+		<dependency>
+       <groupId>org.vaadin.addon</groupId>
+       <artifactId>ios7hotfixes</artifactId>
+       <version>4.0.1</version>
+    </dependency>
 
 		<dependency>
 			<groupId>junit</groupId>

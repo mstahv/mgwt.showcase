@@ -7,6 +7,9 @@
 	<inherits name="com.google.gwt.user.User" />
 	<inherits name="com.googlecode.mgwt.MGWT" />
 	<inherits name="com.googlecode.mgwt.linker.Linker" />
+	
+	<inherits name="org.vaadin.addon.ios7fixes.Ios7HotFixesWidgetset" />
+	
 <!-- 	<inherits name="com.googlecode.mgwt.theme.ExampleTheme"/> -->
 
 
